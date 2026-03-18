@@ -5,7 +5,7 @@ import joblib
 # Load trained models
 heart_model = joblib.load("heart_disease_model.joblib")
 parkinsons_model = joblib.load("parkinsons_data.joblib")
-diabetes_model = joblib.load("diabetes_model.joblib")
+diabetes_model = joblib.load("Diabetes_model.joblib")
 st.set_page_config(page_title="Multiple Disease Prediction", layout="wide")
 
 st.title("🩺 Multiple Disease Prediction System")
